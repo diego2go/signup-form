@@ -50,3 +50,13 @@ h1 {
     max-width: 6rem;
     max-height: 6rem;
 }
+
+.form {
+    background: #f9fafb;
+    padding: 2em;
+}
+
+.form-inputs {
+    background: #fff;
+    
+}
