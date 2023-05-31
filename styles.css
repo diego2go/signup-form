@@ -72,6 +72,12 @@ input {
     width: 300px;
     height: 32px;
     padding: 0 0.5em;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid #c31414;
 }
 
 .row {
