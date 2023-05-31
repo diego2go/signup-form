@@ -25,10 +25,9 @@ img {
     min-height: 100vh;
     background-image: url(./img/photo-1585202900225-6d3ac20a6962.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 1rem 0;
 }
 
 h1 {
@@ -41,6 +40,7 @@ h1 {
     min-height: 7rem;
     min-width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    grid-row: 2 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,3 +60,16 @@ h1 {
     background: #fff;
     
 }
+
+.bg-attribution {
+    color: white;
+    font-size: .75rem;
+    grid-row: 5;
+    align-self: self-end;
+    justify-self: center;
+}
+
+.bg-attribution a:link {
+    color: white;
+}
+
