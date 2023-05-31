@@ -21,22 +21,28 @@
     <form action="post" class="form ">
         <p>
                 This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-                You know you want to.
         </p>
+        <p>You know you want to.</p>
         <div class="form-inputs">
             <p>Let's do this</p>
-            <label for="name">First Name</label>
-            <input type="text" name="first-name" id="name" required>
-            <label for="last-name">Last name</label>
-            <input type="text" name="last-name" id="last-name">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" name="phone-number" id="phone-number">
-            <label for="pwd">Password</label>
-            <input type="password" name="password" id="pwd" required>
-            <label for="pwd-check">Confirm Password</label>
-            <input type="password" name="password-check" id="pwd-check" required>
+            <div class="row">
+                <label for="name">First Name</label>
+                <input type="text" name="first-name" id="name" required>
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name">
+            </div>
+            <div class="row">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" name="phone-number" id="phone-number">
+            </div>
+            <div class="row">
+                <label for="pwd">Password</label>
+                <input type="password" name="password" id="pwd" required>
+                <label for="pwd-check">Confirm Password</label>
+                <input type="password" name="password-check" id="pwd-check" required>
+            </div>
         </div>
         <button type="submit">Create Account</button>
         <p>Already have an account? <a href="#">Log in</a></p>
