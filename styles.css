@@ -109,3 +109,12 @@ h1 {
     margin: 0 0 2em 2em;
     box-shadow: 0 2px 8px gray;
 }
+
+.login {
+    font-size: 1.125rem;
+}
+
+.login > a {
+    text-decoration: none;
+    color: #596D48;
+}
