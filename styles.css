@@ -68,9 +68,16 @@ h1 {
     box-shadow: 0 3px 10px gray;
 }
 
+input {
+    width: 300px;
+    height: 32px;
+    padding: 0 0.5em;
+}
+
 .row {
     display: flex;
     gap: 40px;
+    margin: 16px 0;
 }
 
 .col {
@@ -85,6 +92,7 @@ h1 {
 .form-inputs label {
     font-size: 0.75rem;
     text-transform: uppercase;
+    opacity: 0.8;
 }
 
 .bg-attribution {
