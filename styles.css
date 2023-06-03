@@ -69,7 +69,8 @@ h1 {
 }
 
 input {
-    min-width: 200px;
+    width: 100%;
+    max-width: 250px;
     height: 32px;
     padding: 0 0.5em;
     border: 1px solid lightgrey;
